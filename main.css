@@ -1,0 +1,133 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container,
+.titulos {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+/* CABECALHO */
+header {
+    background-color: #a52a2a; /* Vermelho escuro */
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* NAVBAR */
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* SESSAO HISTORIA */
+section {
+    margin: 20px 0;
+}
+
+section .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+section .titulos {
+    display: block;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+section .gabi-gol {
+    width: 100%;
+    max-width: 500px;
+    margin-right: 20px;
+}
+
+section .brasao {
+    height: 50px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+    color: #a52a2a;
+}
+
+section p {
+    margin-bottom: 20px;
+}
+
+/* SESSAO TITULOS */
+section ul {
+    list-style: none;
+}
+
+section ul ul {
+    margin-left: 20px;
+}
+
+section ul h3 {
+    margin-top: 20px;
+    color: #a52a2a;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
